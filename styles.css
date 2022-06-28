@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+	font-family: Arial;
+	background-color: hsl(30, 38%, 92%);
+}
+
+.card{
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	margin: 100px 0;
+	flex-wrap: wrap;
+}
+.card__image{
+	width: 400px;
+	height: 500px;
+	object-fit: cover;
+	border-radius: 10px 0px 0px 10px;
+}
+.card__content{
+	width: 330px;
+	padding: 25px;
+	background-color: #fff;
+	border-radius: 0px 10px 10px 0px;
+}
+.card__description,.product,.card__button{
+	color: #666;
+	font-family: "Montserrat";
+}
+.product{
+	text-transform: uppercase;
+}
+.card__button{
+	color: #fff;
+	background-color: hsl(158, 36%, 37%);
+	border: none;
+	display: block;
+	width: 330px;
+	margin-top: 50px;
+	padding: 15px 10px;
+	border-radius: 10px;
+	font-size: 1rem;
+}
+.card__price{
+	font-family: "Staatliches";
+	font-size: 3rem;
+	color: hsl(158, 36%, 37%);
+}
+.card__price--last{
+	text-decoration: line-through;
+}
+
+@media screen and (max-width: 700px){
+	.card__image{
+		border-radius: 10px 10px 0px 0px;
+		height: 300px;
+		width: 380px;
+	}
+	.card__content{
+		border-radius: 0px 0px 10px 10px;	
+	}
+}

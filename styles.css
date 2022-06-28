@@ -51,7 +51,10 @@ body{
 .card__price--last{
 	text-decoration: line-through;
 }
-
+.card__button:hover{
+	background-color: hsl(158, 30%, 30%);
+	cursor: pointer;
+}
 @media screen and (max-width: 700px){
 	.card__image{
 		border-radius: 10px 10px 0px 0px;

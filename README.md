@@ -2,7 +2,7 @@
 <p>this is a mentor frontend challenge</p>
 
 ## Challenge
-<img src="./desing/active-states.jpg">
+<img src="./design/active-states.jpg">
 
 ## My Solution 
 <img src="./preview.png">
